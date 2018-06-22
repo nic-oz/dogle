@@ -1,10 +1,9 @@
-# phac-kpnet-autocomplete
-
-## Project
+## Project Dogle
 
 ### Autocomplete website/widget
 
 #### Description
+
 - A website that enables users to quickly find and select dogs from a list of suggestions, as they type.
 - The list is dynamically generated from a list of dog breeds stored as a JSON file on the Heroku server.
 - Once the dog is selected, a random picture of the specimen is displayed. Every FETCH click will render a new random picture of this breed's specimen.
@@ -20,17 +19,16 @@ All other operations including the API call to DOG.CEO.API are handled from the 
 
 #### Testing
 
-1) Only pure functions are tested and there is only one pure function.
+1.  Only pure functions are tested and there is only one pure function.
 
-2) Tape was used for testing pure function. [DWYL guide for using tape](https://github.com/dwyl/learn-tape).
+2.  Tape was used for testing pure function. [DWYL guide for using tape](https://github.com/dwyl/learn-tape).
 
-3) Nyc was used to check test coverage:
+3.  Nyc was used to check test coverage:
 
 ![tests](https://user-images.githubusercontent.com/18426161/37826963-65e1a158-2e8d-11e8-92f3-cebfc5c926ab.png)
 
 #### API docs
 
-1) The photos and the original list of breeds come from DOG.CEO.API
+1.  The photos and the original list of breeds come from DOG.CEO.API
 
-2) For more information on DOG CEO API: [see resource](https://dog.ceo/dog-api/).
-
+2.  For more information on DOG CEO API: [see resource](https://dog.ceo/dog-api/).
